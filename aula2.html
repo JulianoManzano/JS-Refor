@@ -18,11 +18,17 @@
 </head>
 <body>
     <h1>Olá Mundo</h1>
-    <P>já me livrei da maldição</P>
+    <P>já me livrei da maldição </P>
     <script>
-        alert('Minha primeira mensagem')
-        window.confirm('Está gostando de JS?')
-        prompt("Qual é o seu nome")
+        let n1 = Number(prompt('Digite um número'))
+        let n2 = Number(prompt('Digite outro número'))
+        let soma = (n1 + n2)
+        alert(`A soma entre ${n1} e ${n2} é ${soma}.`)
+
+        let n3 = String(prompt('Digite um número'))
+        let n4 = String(prompt('Digite outro número'))
+        let soma1 = n3 + n4
+        alert(`A soma é ${soma} e a concatenação da soma é ${soma1}`)
     </script>
 </body>
 </html>
